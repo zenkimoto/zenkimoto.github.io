@@ -1,0 +1,75 @@
+/* 	light: #a5044f 
+	medium: #801246
+	dark: #64033b
+*/
+
+@media only screen and (min-width: 768px) {
+  /* non-retina */
+  .appImage {
+    background-image:url('../img/labor_signs_app.png');
+    width: 158px; 
+    height: 333px;
+  }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
+only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 768px),
+only screen and (-o-min-device-pixel-ratio: 2/1) and (min-width: 768px),
+only screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+only screen and (min-resolution: 2dppx){
+  /* retina display. dpr 2 */
+  .appImage {
+      background-image:url('../img/labor_signs_app@2x.png');
+      background-size: 158px 333px; /* same size as normal image would be or on web it will scale up 2 times */
+      width: 158px; 
+      height: 333px;
+  }
+}
+
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+.main {
+	background: -webkit-linear-gradient(#B40657, #64033b); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(#B40657, #64033b); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(#B40657, #64033b); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(#B40657, #64033b); /* Standard syntax */
+
+		color: #ee8ebb;
+}
+
+.main h1 {
+	color: #ffffff;
+}
+
+#zenkimoto_navbar .navbar-brand {
+	color: #64033b;
+}
+
+#zenkimoto_navbar .nav a {
+	color: #64033b;
+}
+
+.zenkimoto_header_icon {
+	margin-right: 10px;
+}
+
+.zenkimoto_header {
+	color: #64033b;
+}
+
+.zenkimoto_footer {
+	border-top: 1px solid #e5e5e5;
+	height: 30px;
+	margin-top: 30px;
+}
+
+.zenkimoto_support {
+	margin-top: 40px;
+}
+
+.zenkimoto_disclaimer {
+	margin-top: 20px;
+}
